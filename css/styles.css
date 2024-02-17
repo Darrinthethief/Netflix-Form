@@ -1,0 +1,124 @@
+:root {
+    --primary-color-1: #000000;
+    --primary-color-2: #FFFFFF;
+    --primary-color-3: #FF0000;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4) ), url(https://assets.nflxext.com/ffe/siteui/vlv3/16006346-87f9-4226-bc25-a1fb346a2b0c/76738589-55fe-4402-b729-fe5d2b3b16c6/US-en-20240115-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+}
+
+.container {
+    justify-content: center;
+}
+
+/* header section */
+header {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+#title {
+    letter-spacing: .75rem;
+    word-spacing: .5rem;
+    font-weight: 475;
+    color: var(--primary-color-3);
+    font-size: 2.5rem;
+}
+
+#description {
+    padding-top: 3.5rem;
+    padding-bottom: 1.5rem;
+    letter-spacing: .75rem;
+    text-transform: capitalize;
+    color: var(--primary-color-2);
+    font-size: 1.25rem;
+}
+
+#title, #description {
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1.5rem;
+}
+
+/* main section */
+
+form {
+    max-width: 575px;
+    max-height: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    color: var(--primary-color-2);
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.form-category {
+    padding-top: .5rem;
+    padding-bottom: .25rem;
+}
+
+label {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.title {
+    font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+input[type=text], input[type=number], input[type=email] {
+    height: 2rem;
+    width: 100%;
+    font-size: 16px;
+    padding-left: 2.5px;
+    align-items: center;
+    letter-spacing: .1rem;
+    margin-top: 5px;
+}
+
+select {
+    height: 2rem;
+    width: 100%;
+    font-size: 16px;
+    letter-spacing: .1rem;
+}
+
+#comments {
+    height: 5rem;
+    width: 100%;
+    resize: vertical;
+    font-size: 16px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+#submit {
+    font-size: 20px;
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+/* footer section */
+footer {
+    padding-top: 10px;
+}
